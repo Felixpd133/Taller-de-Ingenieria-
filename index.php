@@ -3,7 +3,7 @@
 require_once 'conexion.php';
 // Colocar los siguientes comandos para arrancar la paguina: 
 // sudo service mysql start
-// usr/bin/php -S 127.0.0.1:8080
+// /usr/bin/php -S 127.0.0.1:8080
 // Si ya tiene una sesión activa, lo mandamos directo al panel de gestión
 if (isset($_SESSION['usuario'])) {
     header("Location: gestion.php");
